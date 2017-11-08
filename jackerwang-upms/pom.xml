@@ -23,5 +23,8 @@
     <module>jackerwang-upms-rpi</module>
     <module>jackerwang-upms-admin</module>
     <module>jackerwang-upms-client</module>
+    <module>jackerwang-upms-rpc-api</module>
+    <module>jackerwang-upms-common</module>
+    <module>jackerwang-upms-rpc-service</module>
   </modules>
 </project>
