@@ -18,7 +18,7 @@ import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
 
 /**
- * AES加解密工具类 Created by shuzheng on 2017/2/5.
+ * AES加解密工具类 Created by shujackerwang on 2017/2/5.
  */
 public class AESUtil {
 
@@ -114,7 +114,7 @@ public class AESUtil {
         } catch (IOException e) {
             e.printStackTrace();
         } catch (IllegalBlockSizeException e) {
-            throw new RuntimeException("兄弟，配置文件中的密码需要使用AES加密，请使用com.zheng.common.util.AESUtil工具类修改这些值！");
+            throw new RuntimeException("兄弟，配置文件中的密码需要使用AES加密，请使用com.jackerwang.common.util.AESUtil工具类修改这些值！");
             // e.printStackTrace();
         } catch (BadPaddingException e) {
             e.printStackTrace();

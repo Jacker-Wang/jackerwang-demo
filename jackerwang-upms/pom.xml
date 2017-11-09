@@ -20,7 +20,6 @@
   <modules>
   	<module>jackerwang-upms-dao</module>
   	<module>jackerwang-upms-server</module>
-    <module>jackerwang-upms-rpi</module>
     <module>jackerwang-upms-admin</module>
     <module>jackerwang-upms-client</module>
     <module>jackerwang-upms-rpc-api</module>
