@@ -10,12 +10,18 @@
   <groupId>com.jackerwang</groupId>
   <artifactId>jackerwang-upms-rpc-service</artifactId>
   <version>1.0.0</version>
-  <name>jackerwang-upms-rpc-server</name>
+  <name>jackerwang-upms-rpc-service</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
+  
+  <dependency>
+            <groupId>com.jackerwang</groupId>
+            <artifactId>jackerwang-upms-rpc-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
