@@ -19,11 +19,11 @@
   </dependencies>
   <modules>
   	<module>jackerwang-upms-dao</module>
-  	<module>jackerwang-upms-server</module>
     <module>jackerwang-upms-admin</module>
     <module>jackerwang-upms-client</module>
     <module>jackerwang-upms-rpc-api</module>
     <module>jackerwang-upms-common</module>
     <module>jackerwang-upms-rpc-service</module>
-  </modules>
+    <module>jackerwang-upms-server</module>
+</modules>
 </project>
