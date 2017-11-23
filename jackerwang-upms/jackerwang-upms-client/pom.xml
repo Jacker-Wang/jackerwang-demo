@@ -21,13 +21,6 @@
 	
 		<dependency>
 			<groupId>com.jackerwang</groupId>
-			<artifactId>jackerwang-common</artifactId>
-			<version>1.0.0</version>
-			<type>jar</type>
-		</dependency>
-		
-		<dependency>
-			<groupId>com.jackerwang</groupId>
 			<artifactId>jackerwang-upms-rpc-api</artifactId>
 			<version>1.0.0</version>
 		</dependency>

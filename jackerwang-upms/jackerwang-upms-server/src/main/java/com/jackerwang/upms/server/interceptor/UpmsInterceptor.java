@@ -36,6 +36,7 @@ public class UpmsInterceptor extends HandlerInterceptorAdapter {
         // 登录信息
         Subject subject = SecurityUtils.getSubject();
         String username = (String) subject.getPrincipal();
+        System.out.println(username);
         UpmsUser upmsUser = upmsApiService.selectUpmsUserByUsername(username);
         request.setAttribute("upmsUser", upmsUser);
         return true;
