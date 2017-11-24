@@ -17,7 +17,6 @@ public class JackerWangAdminUtil implements InitializingBean, ServletContextAwar
 
     @Override
     public void afterPropertiesSet() throws Exception {
-
     }
 
     @Override
