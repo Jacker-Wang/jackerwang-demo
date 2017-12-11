@@ -70,6 +70,8 @@ public class UpmsRealm extends AuthorizingRealm {
         SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
         simpleAuthorizationInfo.setStringPermissions(permissions);
         simpleAuthorizationInfo.setRoles(roles);
+        System.out.println("角色" + roles.toString());
+        System.out.println("权限" + permissions.toString());
         return simpleAuthorizationInfo;
     }
 

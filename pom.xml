@@ -15,5 +15,6 @@
   	<module>jackerwang-upms</module>
   	<module>jackerwang-common</module>
     <module>jackerwang-admin</module>
+    <module>jackerwang-cms</module>
   </modules>
 </project>
